@@ -1,6 +1,6 @@
 mod advent23;
 
-use crate::advent23::{day1, day2, day3, day4};
+use crate::advent23::{day1, day2, day3, day4, day5};
 
 fn main() {
     println!("Running day 1 part 1!");
@@ -41,5 +41,15 @@ fn main() {
     println!("Running day 4 part 2!");
     let res = day4::run_part2("inputs/day4");
     println!("Result of day 4 part 2: {}", res);
+    println!("");
+
+    println!("Running day 5 part 1!");
+    let res = day5::run("inputs/day5");
+    println!("Result of day 5 part 1: {}", res);
+    println!("");
+
+    println!("Running day 5 part 2!");
+    let res = day5::run_part2("inputs/day5");
+    println!("Result of day 5 part 2: {}", res);
     println!("");
 }
